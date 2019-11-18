@@ -1,5 +1,5 @@
 # IsometricGame_Astar_pathfinding
-A* path finding algorithm for a Isometric Game in Unity Engine. Work in progress.
+A* path finding algorithm for a Isometric Game in Unity Engine. Made for a game that is work in progress.
 
 The GameObjects in the Unity project are starting a new Thread which executes findPath() function. Then the A* algorithm goes to work on a seperate thread and saves the result into a list which the main thread then handles to assign the paths to the GameObject.
 
